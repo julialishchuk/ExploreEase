@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="green_accent">#C0DF74</color>
+    <color name="green_accent_with_transparency">#E1C0DF74</color>
+    <color name="purple_accent">#AC66FF</color>
+    <color name="purple_accent_with_transparency">#B8AC66FF</color>
+    <color name="background_calm">#EEECEC</color>
+    <color name="background_grey">#E3DFDF</color>
+    <color name="blue_accent">#66B9FF</color>
+    <color name="pink_accent">#FF66B9</color>
+
 </resources>

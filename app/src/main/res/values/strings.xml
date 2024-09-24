@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">ExploreEase</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search_place">Search place</string>
+    <string name="title_personal_preferences">Personal preferences</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

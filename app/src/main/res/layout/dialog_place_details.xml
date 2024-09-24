@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="400dp">
+
+    <TextView
+            android:id="@+id/textPlace"
+            android:layout_width="271dp"
+            android:layout_height="184dp"
+            android:text="TextView"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/bt_add_to_favorites" />
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_add_to_favorites"
+            android:layout_width="69dp"
+            android:layout_height="63dp"
+            android:background="@drawable/ic_heart_no_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_add_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add stop"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_search_view"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPlace" />
+
+    <Spinner
+            android:id="@+id/spinner_routes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/bt_add_stop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPlace"
+            app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

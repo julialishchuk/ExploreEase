@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <TextView
+            android:id="@+id/tv_route_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:text="Start from:"
+            app:layout_constraintTop_toTopOf="@+id/tv_route_starting_point"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/tv_start_from" />
+
+    <TextView
+            android:id="@+id/tv_route_starting_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gvrfg"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/tv_route_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_start_from" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
